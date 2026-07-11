@@ -9,6 +9,7 @@ function Navbar({ theme, setTheme }) {
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "About Me", href: "#about" },
+    { name: "Enterprise Track Record", href: "#enterprise-track-record" },
     { name: "Portfolio", href: "#portfolio" },
     { name: "Clients", href: "#clients" },
     { name: "Blog", href: "#blog" },

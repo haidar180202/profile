@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
+import ExecutiveShowcase from './components/ExecutiveShowcase';
 import Portfolio from './components/Portfolio';
 import Client from './components/Client';
 import Blog from './components/Blog';
@@ -18,6 +19,7 @@ function App() {
       <main>
         <Home />
         <About />
+        <ExecutiveShowcase />
         <Portfolio />
         <Client />
         <Blog />
