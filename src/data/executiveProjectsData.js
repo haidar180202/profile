@@ -1,5 +1,26 @@
 const executiveProjectsData = [
   {
+    id: "ifg-lifehub",
+    title: "PT Asuransi Jiwa IFG (IFG Life) — Corporate LifeHub",
+    subtitle: "Enterprise Policy Management, Underwriting & BPMN Workflow Portal",
+    category: "Enterprise BUMN",
+    role: "Front-End Architecture Lead",
+    liveUrl: "https://hub-asum-dev.ifg-life.id/",
+    protectedUrlText: null,
+    archetype: "Archetype D: Enterprise Insurance Hub & Zero-Trust Portal",
+    summary:
+      "The core corporate digital portal for IFG Life (`Asum Dev Hub`), managing comprehensive insurance underwriting workflows, policy administration, and actuarial analytics powered by high-performance Java Quarkus and BPMN process integration.",
+    highlights: [
+      "Architected secure, responsive front-end applications handling sensitive financial and medical underwriting data.",
+      "Integrated Java Quarkus backend microservices with BPMN workflow engines for automated policy approval and multi-tier underwriting routing.",
+      "Implemented zero-trust OIDC/OAuth2 authentication with enterprise multi-factor security layers.",
+      "Reduced underwriting turnaround time threefold through automated form validation and BPMN decision pipelines."
+    ],
+    techStack: ["Next.js", "Tailwind CSS", "Redux Toolkit", "Java Quarkus", "BPMN Workflow", "PostgreSQL", "OIDC/OAuth2"],
+    metrics: "50k+ Concurrent policyholders • 3x Faster underwriting turnaround • ISO 27001 compliant UX",
+    badgeColor: "bg-blue-600 text-white"
+  },
+  {
     id: "cisea-ptba",
     title: "PT Bukit Asam Tbk — CISEA Facelift Super-App",
     subtitle: "Enterprise Mining & Operations Integration Platform",
@@ -61,27 +82,6 @@ const executiveProjectsData = [
     techStack: ["React.js", "PHP", "Laravel REST API", "MySQL", "Tailwind CSS"],
     metrics: "Streamlined corporate contracting • Reactive SPA user experience • Secure role segregation",
     badgeColor: "bg-teal-600 text-white"
-  },
-  {
-    id: "ifg-lifehub",
-    title: "PT Asuransi Jiwa IFG (IFG Life) — Corporate LifeHub",
-    subtitle: "Enterprise Policy Management & Underwriting Portal",
-    category: "Enterprise BUMN",
-    role: "Front-End Architecture Lead",
-    liveUrl: "https://hub-asum-dev.ifg-life.id/",
-    protectedUrlText: null,
-    archetype: "Archetype D: Enterprise Insurance Hub & Zero-Trust Portal",
-    summary:
-      "The core corporate digital portal for IFG Life (`Asum Dev Hub`), managing comprehensive insurance underwriting workflows, policy management, and actuarial analytics.",
-    highlights: [
-      "Architected secure, responsive front-end applications handling sensitive financial and medical underwriting data.",
-      "Integrated zero-trust OIDC/OAuth2 authentication with enterprise multi-factor security layers.",
-      "Engineered real-time policy administration dashboards for thousands of concurrent insurance agents.",
-      "Reduced underwriting turnaround time threefold through automated form validation pipelines."
-    ],
-    techStack: ["Next.js", "Tailwind CSS", "Redux Toolkit", "Java Spring Boot API", "PostgreSQL", "OIDC/OAuth2"],
-    metrics: "50k+ Concurrent policyholders • 3x Faster underwriting turnaround • ISO 27001 compliant UX",
-    badgeColor: "bg-blue-600 text-white"
   },
   {
     id: "investree-internship",

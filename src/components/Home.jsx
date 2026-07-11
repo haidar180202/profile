@@ -14,12 +14,11 @@ const Home = () => {
               </span>
             </h1>
             <h2 className="mt-3 mb-6 text-lg font-semibold text-secondary dark:text-slate-300 lg:text-2xl">
-              Software Engineer ||{" "}
-              <span className="text-dark dark:text-white underline decoration-primary decoration-4 underline-offset-4">Front End Developer</span>
+              Dev Lead (Developer Leader) ||{" "}
+              <span className="text-dark dark:text-white underline decoration-primary decoration-4 underline-offset-4">Senior Full-Stack Architect</span>
             </h2>
             <p className="mb-10 font-medium leading-relaxed text-secondary dark:text-slate-400 text-lg max-w-lg">
-              Continuously adopting cutting-edge technologies and clean architecture to build{" "}
-              <span className="font-bold text-dark dark:text-white">high-performance professional web applications</span> and enterprise systems.
+              Working as a dedicated <span className="font-bold text-dark dark:text-white">Dev Lead</span> with a strong mindset of technical adaptability—open to rapid framework shifts, emerging cloud standards, and clean architecture across enterprise systems.
             </p>
 
             <div className="flex flex-wrap gap-4 items-center">

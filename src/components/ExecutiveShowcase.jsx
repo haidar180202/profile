@@ -36,19 +36,19 @@ const ExecutiveShowcase = () => {
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8 relative z-10">
             <div className="max-w-2xl">
               <span className="inline-block rounded-full bg-blue-500/20 border border-blue-400/40 px-3.5 py-1 text-xs font-bold uppercase tracking-wider text-blue-300 mb-3">
-                ⭐ Official Presentation V4 (100% Pure Executive English)
+                ⭐ Official Presentation V5 Master (Dev Lead Edition)
               </span>
               <h3 className="text-2xl font-extrabold sm:text-3xl tracking-tight mb-3">
-                Project Development &amp; Architecture Portfolio V4 (`Zero-Clip`)
+                Project Development &amp; Architecture Portfolio V5 (`Master Deck`)
               </h3>
               <p className="text-sm md:text-base font-medium text-slate-300 leading-relaxed">
-                Featuring our mathematical <strong className="text-white">True Widescreen (`13.333 x 7.50` in / `960 x 540 pt`) geometry</strong>. Comprehensive breakdowns of CISEA Facelift, SIMAS-AI Telemetry, and IFG LifeHub portals with zero clipped text.
+                Featuring our mathematical <strong className="text-white">True Widescreen (`13.333 x 7.50` in / `960 x 540 pt`) geometry</strong>. Comprehensive breakdowns of IFG Life Corporate LifeHub (`Quarkus + BPMN`), CISEA Facelift, and Investree Fintech portals under pure <strong className="text-white">Dev Lead</strong> execution.
               </p>
             </div>
 
             <div className="flex flex-wrap sm:flex-nowrap items-center gap-3 shrink-0">
               <a
-                href={`${process.env.PUBLIC_URL}/documents/Project_Development_Portfolio_Haidar_v4_ZeroClip.pdf`}
+                href={`${process.env.PUBLIC_URL}/documents/Project_Development_Portfolio_Haidar_v5_Master.pdf`}
                 download
                 target="_blank"
                 rel="noopener noreferrer"
@@ -57,11 +57,11 @@ const ExecutiveShowcase = () => {
                 <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
-                <span>Download PDF (`700 KB`)</span>
+                <span>Download PDF (`720 KB`)</span>
               </a>
 
               <a
-                href={`${process.env.PUBLIC_URL}/documents/Project_Development_Portfolio_Haidar_v4_ZeroClip.pptx`}
+                href={`${process.env.PUBLIC_URL}/documents/Project_Development_Portfolio_Haidar_v5_Master.pptx`}
                 download
                 target="_blank"
                 rel="noopener noreferrer"
@@ -70,7 +70,7 @@ const ExecutiveShowcase = () => {
                 <svg className="h-5 w-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                 </svg>
-                <span>PPTX Editable (`815 KB`)</span>
+                <span>PPTX Editable (`825 KB`)</span>
               </a>
             </div>
           </div>
