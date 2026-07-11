@@ -106,10 +106,14 @@ const ExecutiveShowcase = () => {
                   <span className={`rounded-full px-3 py-1 text-xs font-bold uppercase tracking-wider ${project.badgeColor}`}>
                     {project.category}
                   </span>
-                  {project.liveUrl && (
+                  {project.liveUrl ? (
                     <span className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-600 dark:text-emerald-400">
                       <span className="h-2 w-2 rounded-full bg-emerald-500 animate-ping"></span>
                       Live Portal
+                    </span>
+                  ) : (
+                    <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-500 dark:text-slate-400">
+                      🔒 {project.protectedUrlText?.split(" ")[0] || "Protected Portal"}
                     </span>
                   )}
                 </div>

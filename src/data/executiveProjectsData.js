@@ -3,9 +3,10 @@ const executiveProjectsData = [
     id: "cisea-ptba",
     title: "PT Bukit Asam Tbk — CISEA Facelift Super-App",
     subtitle: "Enterprise Mining & Operations Integration Platform",
-    category: "Enterprise BUMN & AI",
+    category: "Enterprise BUMN",
     role: "Lead System Architect & Senior Full-Stack Engineer",
     liveUrl: "http://cisea.bukitasam.co.id/",
+    protectedUrlText: null,
     archetype: "Archetype A & B: Super-App Micro-Frontend & Unified API Gateway",
     summary:
       "A monumental enterprise integration platform unifying over 100+ disjointed operational and mining management modules into a cohesive, zero-latency Super-App ecosystem.",
@@ -13,70 +14,94 @@ const executiveProjectsData = [
       "Integrated 100+ high-throughput mining, logistics, and HR modules into a single pane of glass.",
       "Architected a resilient Micro-Frontend UI layer with role-based access control (RBAC) and enterprise SSO.",
       "Engineered a high-performance API Gateway routing legacy ERP endpoints to modern reactive front-ends.",
-      "Achieved 99.9% uptime across mission-critical coal production telemetry dashboards."
+      "Achieved 99.9% uptime across mission-critical coal production operational dashboards."
     ],
     techStack: ["React.js", "Tailwind CSS", "TypeScript", "Node.js", "Laravel API Gateway", "Docker", "Kubernetes"],
     metrics: "40% Faster operational reporting • 100+ Integrated modules • 99.9% High Availability",
     badgeColor: "bg-amber-500 text-white"
   },
   {
-    id: "simas-ai-pusri",
-    title: "PT Pupuk Sriwidjaja (Pusri) — SIMAS-AI Telemetry",
-    subtitle: "Smart IoT Safety & Predictive Maintenance Ecosystem",
-    category: "Enterprise BUMN & AI",
-    role: "AI Telemetry Architect & Real-Time Systems Engineer",
+    id: "hcms-pusri",
+    title: "PT Pupuk Sriwidjaja (Pusri) — HCMS Web App",
+    subtitle: "Human Capital Management System & EAP Consultation Portal",
+    category: "Enterprise BUMN",
+    role: "Lead Enterprise Full-Stack Engineer",
     liveUrl: null,
-    archetype: "Archetype C: DAG Sensor Telemetry & Predictive Safety Pipeline",
+    protectedUrlText: "hcms.pusri.co.id (`Protected Employee Portal`)",
+    archetype: "Archetype A: Enterprise SDM Dashboard & Multi-Database Orchestration",
     summary:
-      "An advanced real-time IoT sensor telemetry and AI predictive safety orchestration engine deployed across high-risk fertilizer chemical production facilities.",
+      "The comprehensive internal corporate portal (`hcms.pusri.co.id`) engineered for full-service employee lifecycle management, organizational structure administration, and mental health consultation across PT Pupuk Sriwidjaja Palembang.",
     highlights: [
-      "Designed real-time Directed Acyclic Graph (DAG) pipelines processing high-frequency industrial IoT sensor streams.",
-      "Implemented predictive machine learning models detecting early mechanical fatigue and thermal anomalies.",
-      "Architected an instant automated trip alerting mechanism to prevent hazardous pressure spikes.",
-      "Sub-100ms processing pipeline running on distributed message queue architecture."
+      "Architected complete SDM lifecycle tracking including employee rotation, mutation, promotion, and role experience workflows.",
+      "Engineered the Employee Assistance Program (EAP) module for secure, confidential psychological checking and mental health consultation for every employee.",
+      "Built multi-RDBMS synchronization layers orchestrating data across MySQL, PostgreSQL, and Microsoft SQL Server (MSSQL).",
+      "Implemented responsive asynchronous UI interactions using modern Laravel Blade, AJAX, and high-performance jQuery event handlers."
     ],
-    techStack: ["Python", "FastAPI", "React.js", "Apache Kafka", "TimescaleDB", "PyTorch", "Docker"],
-    metrics: "Sub-100ms Sensor latency • 85% Reduction in false-positive alarms • zero safety incidents",
+    techStack: ["PHP", "Laravel", "AJAX", "jQuery", "MySQL", "PostgreSQL", "Microsoft SQL Server (MSSQL)"],
+    metrics: "100% Automated SDM rotation workflows • Confidential EAP consultation portal • Multi-database RDBMS sync",
     badgeColor: "bg-emerald-600 text-white"
+  },
+  {
+    id: "tkno-pusri",
+    title: "PT Pupuk Sriwidjaja (Pusri) — TKNO Web App",
+    subtitle: "Tata Kelola & Naskah Organisasi Governance Portal",
+    category: "Enterprise BUMN",
+    role: "Full-Stack System Developer",
+    liveUrl: null,
+    protectedUrlText: "Internal Corporate Governance Portal",
+    archetype: "Archetype A: Decoupled SPA & REST API Governance Portal",
+    summary:
+      "An enterprise governance application streamlining internal employee contracts, structural documentation (`Naskah Organisasi`), and corporate compliance workflows across Pusri departments.",
+    highlights: [
+      "Built a fast, reactive front-end Single Page Application (SPA) utilizing modern React.js.",
+      "Designed secure RESTful APIs and authentication pipelines using PHP Laravel back-end architecture.",
+      "Automated internal employee contracting approval chains with role-based access restrictions.",
+      "Significantly accelerated contract processing and organizational documentation archival."
+    ],
+    techStack: ["React.js", "PHP", "Laravel REST API", "MySQL", "Tailwind CSS"],
+    metrics: "Streamlined corporate contracting • Reactive SPA user experience • Secure role segregation",
+    badgeColor: "bg-teal-600 text-white"
   },
   {
     id: "ifg-lifehub",
     title: "PT Asuransi Jiwa IFG (IFG Life) — Corporate LifeHub",
     subtitle: "Enterprise Policy Management & Underwriting Portal",
-    category: "Enterprise BUMN & AI",
+    category: "Enterprise BUMN",
     role: "Front-End Architecture Lead",
     liveUrl: "https://hub-asum-dev.ifg-life.id/",
+    protectedUrlText: null,
     archetype: "Archetype D: Enterprise Insurance Hub & Zero-Trust Portal",
     summary:
-      "The core corporate digital portal for IFG Life (`Asum Dev Hub`), managing comprehensive insurance underwriting workflows, policyholder telemetry, and actuarial analytics.",
+      "The core corporate digital portal for IFG Life (`Asum Dev Hub`), managing comprehensive insurance underwriting workflows, policy management, and actuarial analytics.",
     highlights: [
       "Architected secure, responsive front-end applications handling sensitive financial and medical underwriting data.",
       "Integrated zero-trust OIDC/OAuth2 authentication with enterprise multi-factor security layers.",
-      "Engineered real-time policy simulation dashboards for thousands of concurrent insurance agents.",
-      "Reduced underwriting turnaround time threefold through automated form validation and AI OCR pipelines."
+      "Engineered real-time policy administration dashboards for thousands of concurrent insurance agents.",
+      "Reduced underwriting turnaround time threefold through automated form validation pipelines."
     ],
     techStack: ["Next.js", "Tailwind CSS", "Redux Toolkit", "Java Spring Boot API", "PostgreSQL", "OIDC/OAuth2"],
     metrics: "50k+ Concurrent policyholders • 3x Faster underwriting turnaround • ISO 27001 compliant UX",
     badgeColor: "bg-blue-600 text-white"
   },
   {
-    id: "investree-risk-engine",
-    title: "PT Investree Radhika Jaya — AI Credit Risk Engine",
-    subtitle: "Automated SME Credit Scoring & Fraud Detection Pipeline",
-    category: "Enterprise BUMN & AI",
-    role: "Lead AI & Backend Systems Engineer",
+    id: "investree-internship",
+    title: "PT Investree Radhika Jaya — Student Intern Monitoring App",
+    subtitle: "Fintech Enterprise HR Daily Activity & Milestone Tracker",
+    category: "Fintech Enterprise",
+    role: "Full-Stack System Developer",
     liveUrl: null,
-    archetype: "Archetype E: Fintech Credit Scoring & ML Pipeline",
+    protectedUrlText: "Internal Fintech HR Monitoring Portal",
+    archetype: "Archetype A: Corporate HR Daily Activity Tracker & Evaluation Engine",
     summary:
-      "An enterprise-grade financial risk assessment platform utilizing automated machine learning pipelines to evaluate SME loan origination and detect synthetic fraud patterns.",
+      "Internal corporate management application engineered specifically for PT Investree Radhika Jaya (Financial Technology Enterprise) to monitor daily activities, track task milestones, and evaluate student intern performance across departments.",
     highlights: [
-      "Developed high-throughput credit decision algorithms evaluating 50+ financial and alternative data variables.",
-      "Built real-time fraud pattern recognition pipelines utilizing Graph Neural Networks.",
-      "Exposed low-latency credit assessment RESTful APIs consumed by core banking partners.",
-      "Successfully processed over billions of Rupiah in automated, low-risk loan originations."
+      "Designed real-time daily activity logging interfaces enabling student interns to submit shift logs and deliverables asynchronously.",
+      "Built supervisor verification and milestone evaluation pipelines to track KPI completion across multiple Fintech departments.",
+      "Developed comprehensive supervisor review reports with role-based access control (RBAC) ensuring data confidentiality.",
+      "Implemented a clean, responsive web interface combining React front-end components with a robust PHP Laravel REST API."
     ],
-    techStack: ["Python", "Django REST", "Scikit-Learn", "PostgreSQL", "Redis", "Celery", "AWS"],
-    metrics: "30% Higher credit accuracy • 10x Faster loan processing • <200ms API decision speed",
+    techStack: ["React.js", "PHP Laravel", "MySQL", "Tailwind CSS", "RESTful API"],
+    metrics: "100% Digital daily intern activity monitoring • Streamlined KPI evaluations • Secure departmental RBAC",
     badgeColor: "bg-purple-600 text-white"
   },
   {
@@ -86,6 +111,7 @@ const executiveProjectsData = [
     category: "Academic & Leadership",
     role: "Founder, Chief Technology Officer & Principal Mentorship Lead",
     liveUrl: "https://sydemy.com/",
+    protectedUrlText: null,
     archetype: "Archetype F: EdTech Ecosystem & IT Leadership Mentorship",
     summary:
       "Spearheaded the technical vision and educational curriculum for Synapse Academy (`Sydemy.com`) and Universitas Sjakhyakirti, transforming hundreds of engineering students into elite architects.",

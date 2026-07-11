@@ -113,8 +113,8 @@ const ProjectModal = ({ project, onClose }) => {
               </svg>
             </a>
           ) : (
-            <span className="inline-flex items-center gap-2 rounded-xl bg-slate-100 dark:bg-slate-800 py-3 px-6 text-sm font-semibold text-slate-500 dark:text-slate-400">
-              🔒 Internal / Enterprise Protected Portal
+            <span className="inline-flex items-center gap-2 rounded-xl bg-slate-100 dark:bg-slate-800 py-3 px-6 text-sm font-semibold text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700">
+              🔒 {project.protectedUrlText || "Internal / Enterprise Protected Portal"}
             </span>
           )}
 
