@@ -54,7 +54,7 @@ function About() {
                 Let&apos;s Connect & Collaborate
               </h3>
               <p className="mb-8 text-base font-medium text-secondary dark:text-slate-300 leading-relaxed">
-                Whether you want to discuss full-stack development, review my enterprise BUMN projects, or explore mentorship leadership, let&apos;s connect across my social and professional platforms:
+                Whether you want to discuss full-stack engineering (TypeScript, React, Node, Laravel), review my enterprise BUMN projects, or explore Project Management &amp; Business Analyst leadership, let&apos;s connect across my social and professional platforms:
               </p>
               
               <div className="flex flex-wrap gap-4 items-center">

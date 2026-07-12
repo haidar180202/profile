@@ -25,7 +25,7 @@ const executiveProjectsData = [
     title: "PT Bukit Asam Tbk — CISEA Facelift Super-App",
     subtitle: "Enterprise Mining & Operations Integration Platform",
     category: "Enterprise BUMN",
-    role: "Lead System Architect & Senior Full-Stack Engineer",
+    role: "Lead Project Management / Business Analyst & Senior Full-Stack Engineer",
     liveUrl: "http://cisea.bukitasam.co.id/",
     protectedUrlText: null,
     archetype: "Archetype A & B: Super-App Micro-Frontend & Unified API Gateway",

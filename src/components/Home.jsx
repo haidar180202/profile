@@ -13,12 +13,12 @@ const Home = () => {
                 Muhammad Haidar Shahab
               </span>
             </h1>
-            <h2 className="mt-3 mb-6 text-lg font-semibold text-secondary dark:text-slate-300 lg:text-2xl">
-              Dev Lead (Developer Leader) ||{" "}
-              <span className="text-dark dark:text-white underline decoration-primary decoration-4 underline-offset-4">Senior Full-Stack Architect</span>
+            <h2 className="mt-3 mb-4 text-base font-bold text-secondary dark:text-slate-300 sm:text-lg lg:text-xl leading-relaxed">
+              <span className="text-dark dark:text-white font-extrabold">Senior Full-Stack Software Engineer &amp; Lead Project Management / Business Analyst</span> |{" "}
+              <span className="text-primary dark:text-blue-400">Industry-Standard Adaptive Engineer with Practical AI Workflow &amp; Hardware Integration Experience</span>
             </h2>
-            <p className="mb-10 font-medium leading-relaxed text-secondary dark:text-slate-400 text-lg max-w-lg">
-              Working as a dedicated <span className="font-bold text-dark dark:text-white">Dev Lead</span> with a strong mindset of technical adaptability—open to rapid framework shifts, emerging cloud standards, and clean architecture across enterprise systems.
+            <p className="mb-10 font-medium leading-relaxed text-secondary dark:text-slate-400 text-lg max-w-xl">
+              Working as a dedicated <span className="font-bold text-dark dark:text-white">Senior Full-Stack Software Engineer</span> specializing in modern web ecosystems (`TypeScript, React.js, Next.js, Node.js, NestJS, and Laravel`), paired with proven <span className="font-bold text-dark dark:text-white">Project Management &amp; Business Analyst leadership</span> (PT Bukit Asam internal MII team). Possess an industry-standard adaptability mindset—open to rapid framework shifts and seamlessly collaborating with enterprise cloud-native backend standards (`Java Quarkus + BPMN Workflow`) across high-concurrency BUMN and FinTech environments.
             </p>
 
             <div className="flex flex-wrap gap-4 items-center">
@@ -37,13 +37,13 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="w-full self-end px-4 lg:w-1/2">
+          <div className="w-full self-center px-4 lg:w-1/2 -translate-y-2 lg:-translate-y-4">
             <div className="relative mt-10 lg:mt-0 mx-auto max-w-md">
-              <div className="relative z-10 overflow-hidden rounded-3xl bg-gradient-to-b from-primary/20 to-transparent p-2">
+              <div className="relative z-10 overflow-hidden rounded-3xl bg-gradient-to-b from-primary/20 via-primary/5 to-transparent p-3 flex items-center justify-center shadow-xl shadow-primary/5">
                 <img
                   src={imageProfile}
                   alt="Muhammad Haidar Shahab"
-                  className="max-w-full mx-auto h-96 object-contain drop-shadow-2xl transition-transform duration-500 hover:scale-105"
+                  className="max-w-full mx-auto h-[400px] object-contain object-center drop-shadow-2xl transition-transform duration-500 hover:scale-105"
                   width={400}
                 />
               </div>

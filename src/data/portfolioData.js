@@ -38,7 +38,7 @@ export const portfolioProjects = [
     title: "PT Bukit Asam Tbk — CISEA Facelift Super-App",
     subtitle: "Enterprise Mining & Operations Integration Platform",
     category: "Enterprise BUMN & Fintech Apps",
-    role: "Lead System Architect & Senior Full-Stack Engineer",
+    role: "Lead Project Management / Business Analyst & Senior Full-Stack Engineer",
     image: null,
     link: "http://cisea.bukitasam.co.id/",
     liveUrl: "http://cisea.bukitasam.co.id/",
