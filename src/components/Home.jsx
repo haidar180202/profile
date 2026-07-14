@@ -14,11 +14,11 @@ const Home = () => {
               </span>
             </h1>
             <h2 className="mt-3 mb-4 text-base font-bold text-secondary dark:text-slate-300 sm:text-lg lg:text-xl leading-relaxed">
-              <span className="text-dark dark:text-white font-extrabold">Bachelor of Electrical Engineering (`S1 Teknik Elektro | GPA &gt; 3.55`)</span> |{" "}
+              <span className="text-dark dark:text-white font-extrabold">Bachelor of Electrical Engineering (`S1 Teknik Elektro | GPA &gt; 3.5`)</span> |{" "}
               <span className="text-primary dark:text-blue-400">Lead Project Management &amp; Senior Systems Analyst (`&plusmn; 5 Years BUMN Energy &amp; Operations Track Record`)</span>
             </h2>
             <p className="mb-10 font-medium leading-relaxed text-secondary dark:text-slate-400 text-lg max-w-xl">
-              A hybrid engineering talent combining a formal degree in <span className="font-bold text-dark dark:text-white">Electrical Engineering (S1 Teknik Elektro, GPA &gt; 3.55)</span> with self-taught, industry-proven mastery in <span className="font-bold text-dark dark:text-white">Operations Systems Analysis, Real-Time Dashboard Architecture, and BUMN Project Management</span>. Proven track record consolidating 100+ operational/mining modules for <span className="font-bold text-dark dark:text-white">PT Bukit Asam Tbk (`CISEA v2.0.0 Super-App`)</span> in South Sumatra, alongside industrial PLC safety interlocks (`PT Pupuk Sriwidjaja`). Backed by verified <span className="font-bold text-dark dark:text-white">Google Project Management</span> and <span className="font-bold text-dark dark:text-white">Kemnaker RI Scrum Master</span> certifications.
+              A hybrid engineering talent combining a formal degree in <span className="font-bold text-dark dark:text-white">Electrical Engineering (S1 Teknik Elektro, GPA &gt; 3.5)</span> with self-taught, industry-proven mastery in <span className="font-bold text-dark dark:text-white">Operations Systems Analysis, Real-Time Dashboard Architecture, and BUMN Project Management</span>. Proven track record consolidating 100+ operational/mining modules for <span className="font-bold text-dark dark:text-white">PT Bukit Asam Tbk (`CISEA v2.0.0 Super-App`)</span> in South Sumatra, alongside industrial PLC safety interlocks (`PT Pupuk Sriwidjaja`). Backed by verified <span className="font-bold text-dark dark:text-white">Google Project Management</span> and <span className="font-bold text-dark dark:text-white">Kemnaker RI Scrum Master</span> certifications.
             </p>
 
             <div className="flex flex-wrap gap-4 items-center">
