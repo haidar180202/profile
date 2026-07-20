@@ -56,9 +56,10 @@ const executiveProjectsData = [
       "Architected complete SDM lifecycle tracking including employee rotation, mutation, promotion, and role experience workflows.",
       "Engineered the Employee Assistance Program (EAP) module for secure, confidential psychological checking and mental health consultation for every employee.",
       "Built multi-RDBMS synchronization layers orchestrating data across MySQL, PostgreSQL, and Microsoft SQL Server (MSSQL).",
-      "Implemented responsive asynchronous UI interactions using modern Laravel Blade, AJAX, and high-performance jQuery event handlers."
+      "Implemented responsive asynchronous UI interactions using modern Laravel Blade, AJAX, and high-performance jQuery event handlers.",
+      "Engineered core backend services using Laravel PHP, while integrating specific high-performance microservices utilizing Express.js and Go."
     ],
-    techStack: ["PHP", "Laravel", "AJAX", "jQuery", "MySQL", "PostgreSQL", "Microsoft SQL Server (MSSQL)"],
+    techStack: ["PHP", "Laravel", "Express.js", "Go", "AJAX", "jQuery", "MySQL", "PostgreSQL", "Microsoft SQL Server (MSSQL)"],
     metrics: "100% Automated SDM rotation workflows • Confidential EAP consultation portal • Multi-database RDBMS sync",
     badgeColor: "bg-emerald-600 text-white"
   },
